@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ФОРМИ</title>
+</head>
+
+<body background="70.jpg" text="">
+   <center> <h1>Реєстрація</h1>
+    
+        
+<form action="https://formspree.io/juliaivanytska15@gmail.com" method="POST">
+    <p>
+        <label for="name"> Ім'я користувача(логін):</label> 
+      <input type="text" name="name" id="name" required>
+    </p>
+   <p>
+       <label for="email">Email:</label>
+     <input type="email" name="email" id="email" required>
+    </p>
+     <label for="password"> Пароль  </label>
+     <input type="password" name="password" id="password" required>
+     <br>
+    <p><label>Стать:</label>
+       <input type="radio" name="sex" value="man">Чоловік
+       <input type="radio" name="sex" value="woman" >Жінка 
+     <br></p>
+     <label>Рік,місяць,день народження</label>
+    <select name="year">
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+    </select>
+    <select name="month">
+        <option>Січень</option>
+        <option>Лютий</option>
+        <option>Березень</option>
+        <option>Квітень</option>
+        <option>Травень</option>
+        <option>Червень</option>
+        <option>Липень</option>
+        <option>Серпень</option>
+        <option>Вересень</option>
+        <option>Жовтень</option>
+        <option>Листопад</option>
+        <option>Грудень</option>
+    </select>
+    <select name="days">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select><br>
+    
+   <input type="file" name="name" > <br>
+    
+            <input type="checkbox" name="Зберегти" value="Зберегти" checked id="save">
+            <label for="save">Зберегти</label><br>
+       
+      <input type="submit" value="Зареєструватись">
+      
+</form></center>
+    <form action="https://formspree.io/juliaivanytska15@gmail.com" method="POST">
+       
+           <p>
+         <label>Оцінка сайту</label>
+       <input type="radio" name="point" value="point">1
+       <input type="radio" name="point" value="point" >2
+       <input type="radio" name="point" value="point">3
+       <input type="radio" name="point" value="point" >4
+       <input type="radio" name="point" value="point">5
+       
+     </p> 
+       <p> <textarea>Як покращити наш сайт?</textarea></p>
+     <p> 
+     
+      <input type="submit" value="Надіслати адміністратору">
+      </p>
+      
+    </form>
+        
+   
+</body>
+</html>
